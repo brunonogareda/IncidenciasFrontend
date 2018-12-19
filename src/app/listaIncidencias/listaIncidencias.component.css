@@ -1,0 +1,11 @@
+.incidencia {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 2px;
+  box-shadow: 2px 0 2px 0 gray;
+}
+
+.incidencia div {
+  display: inline;
+  padding-right: 15px;
+}

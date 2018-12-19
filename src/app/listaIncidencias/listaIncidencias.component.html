@@ -1,0 +1,17 @@
+<!-- content.component.html -->
+
+<section class="content">
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <div id="lIncidencias">
+          <div class="incidencia" *ngFor="let incidencia of incidencias">
+            <div class="id">{{incidencia.id}}</div>
+            <div class="cliente">{{incidencia.instalacion.cliente.nome}}</div>
+            <div class="instalacion">{{incidencia.instalacion.nome}}</div>
+            <div class="estado">{{incidencia.estado}}</div>
+            <div class="descripcion_curta">{{incidencia.descripcionCurta}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>

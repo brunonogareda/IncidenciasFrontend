@@ -1,0 +1,11 @@
+.nav {
+  padding: 10px;
+}
+
+.pull-right {
+  margin-right: 10px;
+}
+
+.dropdown-menu {
+  margin-top: 0px !important;
+}

@@ -1,0 +1,37 @@
+<!-- navbar.component.html -->
+
+
+    <div class="overlay"></div>
+    <!-- Search Bar -->
+    <!-- <div class="search-bar">
+        <div class="search-icon">
+            <i class="material-icons">search</i>
+        </div>
+        <input type="text" placeholder="START TYPING...">
+        <div class="close-search">
+            <i class="material-icons">close</i>
+        </div>
+    </div> -->
+    <!-- #END# Search Bar -->
+
+    <!-- Top Bar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+          <div class="nav">
+            <div class="pull-left">
+                <a href="javascript:void(0);" class="bars"></a>
+                <a class="navbar-brand" routerLink="/dashboard">{{titulo_seccion}}</a>
+            </div>
+            <div class="pull-right">
+                <img data-toggle="dropdown" class="img-circle" src="assets/images/user-brudi.png" width="48" height="48" />
+
+                <ul class="dropdown-menu pull-right">
+                  <li><a [routerLink]="['/perfil']"><i class="material-icons">account_circle</i>Perfil</a></li>
+                  <li role="seperator" class="divider"></li>
+                  <li><a [routerLink]="['/login']"><i class="material-icons">input</i>Pechar sesión</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <!-- #Top Bar -->
